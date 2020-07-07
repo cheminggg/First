@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+
+#wrap {
+    
+    margin: 0 auto;
+}
+
+h1{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

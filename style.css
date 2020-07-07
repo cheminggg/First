@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f1f1f1;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+#wrap {
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+    
+}
+.head {
+    width: 100%;
+}
+
+.head h1 {
+    text-align: center;
+    text-shadow: black 2px 1px;
+
+}
+
+.box {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    
+}
+
+.icon {
+    position: relative;
+    display: inline-block;
+}
+ .icon i{
+    color: black;
+    font-size: 80px;
+    display: block;
+    text-align: center;
+}
+
+.icon span {
+    width: 120px;
+    font-weight: bold;
+    color: black;
+    padding: 5px 0;
+    text-align: center;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:767px){
+    #wrap {
+        width: 100%;
+        height: auto;
+        
+    }
+    h1 {
+        font-size: 25px;
+    }
+    .box {
+        width: 300px;
+        float: left;
+    }
+    
+    
+}
+
+@media screen and (min-width:767px) and (max-width:959px){
+    #wrap {
+        width: 100%;
+    }
+    .box {
+        width: 340px;
+        float: left;
+    }
+    
+}
+
+@media screen and (min-width:960px){
+    .box {
+        width: 100%;
+        float: left;
+    }
+}
